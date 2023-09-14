@@ -3,8 +3,6 @@ layout: single
 title:  "CentOS 오프라인 PostGIS 설치"
 ---
 
-
-
 > ## **작업환경**
 
 - #### CentOS 7.9
