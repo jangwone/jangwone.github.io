@@ -3,7 +3,7 @@ layout: single
 title:  "CentOS 오프라인 PostGIS 설치"
 ---
 
-# PostGIS 설치하기!! 
+
 
 > ## **작업환경**
 
