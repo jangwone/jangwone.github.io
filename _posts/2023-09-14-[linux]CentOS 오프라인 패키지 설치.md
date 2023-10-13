@@ -82,7 +82,11 @@ gpgcheck=0
 - 마지막으로, 로컬 Repository를 사용하여 PostGIS를 *설치합니다*.
 
 ```sh
-#yum search postgis
+# yum search postgis
+# Ex>>  libpcre.0.().64bit
+# Yym search pcre
+# Yum install pcre-devel.x86_64
+
 yum clean all
 yum install postgis
 ```
