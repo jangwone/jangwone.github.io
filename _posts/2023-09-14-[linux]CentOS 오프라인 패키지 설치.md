@@ -82,7 +82,7 @@ gpgcheck=0
 - 마지막으로, 로컬 Repository를 사용하여 PostGIS를 *설치합니다*.
 
 ```sh
-Copy code
+#yum search postgis
 yum clean all
 yum install postgis
 ```
