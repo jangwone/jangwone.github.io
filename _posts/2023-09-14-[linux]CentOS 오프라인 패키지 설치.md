@@ -27,6 +27,7 @@ rpm -Uvh https://download.postgresql.org/pub/repos/yum/reporpms/EL-7-x86_64/pgdg
 #### **2. 패키지 및 의존성 다운로드** 
 
 - reposync 도구를 사용하여 필요한 패키지와 의존성을 다운로드 합니다.
+- 먼저 yum-utils와 createrepo를 설치합니다.
 
 ```sh
 yum install -y yum-utils createrepo
