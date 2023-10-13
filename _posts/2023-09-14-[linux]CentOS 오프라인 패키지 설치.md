@@ -36,6 +36,7 @@ yum install -y yum-utils createrepo
 그런 다음, 리포지토리를 동기화하여 PostGIS와 그 의존성을 다운로드 합니다.
 
 ```
+#리포지토리 메타데이터 생성
 mkdir -p /path
 reposync -p /path--repoid=pgdg -n --download-metadata
 reposync -p /path/to/repo --repoid=epel -n --download-metadata
