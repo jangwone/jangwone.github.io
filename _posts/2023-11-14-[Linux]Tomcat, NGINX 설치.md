@@ -99,7 +99,6 @@ http {
         location = /50x.html {
     }
 }
-
 </code></pre>
 <p>conf 파일을 수정하면 항상 문법을 확인을 한다.</p>
 <pre><code># nginx -t
@@ -116,5 +115,5 @@ $ setsebool -P httpd_can_network_connect 1
 <p>참고: <a href="https://stackoverflow.com/questions/23948527/13-permission-denied-while-connecting-to-upstreamnginx">https://stackoverflow.com/questions/23948527/13-permission-denied-while-connecting-to-upstreamnginx</a></p>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NzgxNzU0OF19
+eyJoaXN0b3J5IjpbMTY5NzcwNDA5NCwyMDU3ODE3NTQ4XX0=
 -->
