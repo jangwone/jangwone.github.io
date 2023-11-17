@@ -6,6 +6,8 @@
 <h2 id="tomcat-설치하기">Tomcat 설치하기</h2>
 <p>다음 한 줄을 실행해서 SDKMAN을 설치합니다.</p>
 <pre><code>$ curl -s "https://get.sdkman.io" | bash
+$ source "/home/aosadm/.sdkman/bin/sdkman-init.sh"
+
 </code></pre>
 <p>Corretto에서 제공하는 Java 17 버전을 설치 하도록 하겠습니다.</p>
 <pre><code>$ sdk list java 
@@ -60,12 +62,12 @@ http {
 	•••
 	client_max_body_size 200M;
 	•••
+	}
 	
-}
------------------------------------------------
-# cd /etc/nginx/conf.d
-# vi service.conf
-</code></pre>
+
+ cd /etc/nginx/conf.d
+ vi service.conf
+
 <p>service.conf 파일에 다음 내용을 추가한다.</p>
 <pre><code>server {
     listen       80 default_server;
@@ -113,3 +115,6 @@ $ setsebool -P httpd_can_network_connect 1
 </code></pre>
 <p>참고: <a href="https://stackoverflow.com/questions/23948527/13-permission-denied-while-connecting-to-upstreamnginx">https://stackoverflow.com/questions/23948527/13-permission-denied-while-connecting-to-upstreamnginx</a></p>
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbOTMyMDY5NjI0XX0=
+-->
