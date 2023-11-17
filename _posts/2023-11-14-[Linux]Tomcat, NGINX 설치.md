@@ -64,10 +64,10 @@ http {
 	•••
 	}
 	
-
+```
  cd /etc/nginx/conf.d
  vi service.conf
-
+```
 <p>service.conf 파일에 다음 내용을 추가한다.</p>
 <pre><code>server {
     listen       80 default_server;
@@ -116,5 +116,5 @@ $ setsebool -P httpd_can_network_connect 1
 <p>참고: <a href="https://stackoverflow.com/questions/23948527/13-permission-denied-while-connecting-to-upstreamnginx">https://stackoverflow.com/questions/23948527/13-permission-denied-while-connecting-to-upstreamnginx</a></p>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMyMDY5NjI0XX0=
+eyJoaXN0b3J5IjpbMjA1NzgxNzU0OF19
 -->
