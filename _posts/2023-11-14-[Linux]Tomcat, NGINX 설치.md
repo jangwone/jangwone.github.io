@@ -64,10 +64,10 @@ http {
 	•••
 	}
 	
-```
+
  cd /etc/nginx/conf.d
  vi service.conf
-```
+
 <p>service.conf 파일에 다음 내용을 추가한다.</p>
 <pre><code>server {
     listen       80 default_server;
