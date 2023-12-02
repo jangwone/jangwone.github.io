@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  [Linux]Tomcat, NGINX 설치
+title: "[Linux]Tomcat, NGINX 설치"
 tags: 
-	-linux 
-	-nginx
-	-tomcat
+	- linux 
+	- nginx
+	- tomcat
 ---
 
 <h2 id="tomcat-설치하기">Tomcat 설치하기</h2>

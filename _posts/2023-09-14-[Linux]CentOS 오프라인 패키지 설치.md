@@ -1,9 +1,9 @@
 ---
 layout: post
-title: [Linux]CentOS 오프라인 패키지 설치
+title: "[Linux]CentOS 오프라인 패키지 설치"
 tags: 
-    -linux
-    -centos
+    - linux
+    - centos
 ---
 
 > ## **작업환경**

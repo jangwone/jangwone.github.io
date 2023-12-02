@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  [Git]rebase
+title: "[Git]rebase"
 tags: 
-    -git
+    - git
 ---
 
 <h2 id="gitrebase-정리">[Git]rebase 정리</h2>
