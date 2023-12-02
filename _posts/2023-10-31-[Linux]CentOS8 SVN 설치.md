@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  [Linux]CentOS8 SVN 설치
 tags: linux, centos, svn
 ---
