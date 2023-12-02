@@ -1,6 +1,7 @@
 ---
-
-
+layout: post
+title:  [Linux]CentOS8 SVN 설치
+tags: linux, centos, svn
 ---
 
 <h1 id="linuxcentos8-svn-설치하기">[Linux]CentOS8 SVN 설치하기</h1>

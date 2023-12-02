@@ -1,6 +1,7 @@
 ---
-layout: single
-title:  "CentOS 오프라인 PostGIS 설치"
+layout: post
+title: [Linux]CentOS 오프라인 패키지 설치
+tags: linux, centos
 ---
 
 > ## **작업환경**

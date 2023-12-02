@@ -1,6 +1,7 @@
 ---
-
-
+layout: post
+title:  [Git]rebase
+tags: git
 ---
 
 <h2 id="gitrebase-정리">[Git]rebase 정리</h2>
