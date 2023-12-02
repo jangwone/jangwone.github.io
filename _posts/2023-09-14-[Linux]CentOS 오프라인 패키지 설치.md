@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "[Linux]CentOS 오프라인 패키지 설치"
 tags: 
     - linux

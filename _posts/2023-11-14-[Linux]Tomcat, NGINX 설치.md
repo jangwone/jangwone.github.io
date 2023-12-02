@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "[Linux]Tomcat, NGINX 설치"
 tags: 
   - linux
